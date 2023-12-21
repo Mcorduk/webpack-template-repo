@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("const name = \"James\";\n\nconst person = { first: name };\n\nconsole.log(person);\n\nconst sayHelloLinting = (fName) => {\n  console.log(`Hello linting, ${fName}`);\n};\n\n\n//# sourceURL=webpack://webpack-template-repo/./src/index.js?");
+eval("const name = \"James\";\nconst person = {\n  first: name\n};\nconsole.log(person);\nconst sayHelloLinting = fName => {\n  console.log(`Hello linting, ${fName}`);\n};\n\n//# sourceURL=webpack://webpack-template-repo/./src/index.js?");
 
 /***/ })
 
