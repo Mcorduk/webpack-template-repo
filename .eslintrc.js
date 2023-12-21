@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: "airbnb-base",
+  extends: ["airbnb-base", "prettier"],
   overrides: [
     {
       env: {
@@ -23,5 +23,5 @@ module.exports = {
     semi: ["error", "always"],
     quotes: ["error", "double"],
   },
-  extends: ["some-other-config-you-use", "prettier"],
+
 };
