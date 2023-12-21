@@ -1,6 +1,4 @@
-# Project Name
-
-A brief description of your project.
+# Personal Webpack Template
 
 ## Introduction
 
