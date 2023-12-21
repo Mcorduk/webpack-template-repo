@@ -588,6 +588,10 @@ video {
   border-width: 1px;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .underline {
   text-decoration-line: underline;
 }
